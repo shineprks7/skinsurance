@@ -1,0 +1,304 @@
+.hero-button
+{
+    position: relative;
+    min-width: 160;
+    overflow: hidden;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    padding:12px 48px;
+
+    gap: 12px;
+
+   
+    /* font-family: 'Anek Tamil Condensed';
+    font-family: "Anek Tamil", sans-serif;
+  font-variation-settings:"wdth" 70;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    white-space: nowrap;
+    color: #fdefef; */
+
+    font-weight: bold;
+
+    cursor: pointer;
+    margin-top:64px;
+    transform: translate(0%, 500%);
+
+    transition: all 1s cubic-bezier(0.215, 0.610, 0.355, 1);
+    transition-delay: 1s;
+
+    border: 1px solid #fff;
+
+}
+.hero-button.show
+{
+
+  transform: translate(0%, 0%);
+
+  
+
+}
+
+
+
+.hero-button:hover
+{
+  gap:32px;
+  /* box-shadow: #101045 0px 4px 12px, #101045 0px -4px 12px ; */
+}
+
+
+.nav-cta-button
+{
+    overflow: hidden;
+    border-radius: 12px;
+
+   
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    white-space: nowrap;
+    color: #1a1227;
+
+    display: flex;
+    align-items: center;
+    padding:8px 12px;
+
+    gap: 12px;
+}
+
+.final-cta-button
+
+{
+    position: relative;
+    min-width: 160px;
+    overflow: hidden;
+    border-radius: 12px;
+
+    display: flex;
+    align-items: center;
+    padding:12px 24px;
+
+    gap: 12px;
+
+   
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 1;
+    line-height: 24px;
+    white-space: nowrap;
+
+    cursor: pointer;
+
+    
+
+}
+.retirement-cta-button-wrapper
+{
+
+    margin-top: 96px;
+  margin-bottom: 96px;
+}
+
+.retirement-cta-button
+{
+
+    cursor: pointer;
+
+    max-width: 80%;
+    min-width:  360px;
+    overflow: hidden;
+
+    
+    display: flex;
+    align-items: center;
+    padding:24px 24px;
+
+    gap: 24px;
+    font-weight: bold;
+
+
+/* 
+    font-family: 'Anek Tamil Condensed';
+    font-family: "Anek Tamil", sans-serif;
+  font-variation-settings:"wdth" 70;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  white-space: normal;
+  color: #fdefef; */
+
+  text-align: left;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  transition: all 0.5s cubic-bezier(0.215, 0.610, 0.355, 1);
+
+  
+  
+}
+
+.retirement-cta-button:hover
+{
+  gap:32px;
+  /* box-shadow: #191682 0px 4px 12px, #191682 0px -4px 12px ; */
+}
+
+.insurance-cta-button-wrapper
+{
+    /* background: #191682; */
+
+    padding-top:24px;
+    padding-bottom: 24px;
+}
+
+
+.insurance-cta-button
+{
+
+    cursor: pointer;
+
+    max-width: 80%;
+    min-width:  360px;
+    overflow: hidden;
+    /* background: #fdefef; */
+    
+    border-radius: 12px;
+
+    display: flex;
+    align-items: center;
+    padding:24px 24px;
+
+    gap: 24px;
+    font-weight: bold;
+
+
+
+    /* font-family: 'Anek Tamil Condensed';
+    font-family: "Anek Tamil", sans-serif;
+  font-variation-settings:"wdth" 70;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  white-space: normal;
+  color: #191682; */
+
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+
+
+
+  transition: all 0.5s cubic-bezier(0.215, 0.610, 0.355, 1);
+  
+}
+
+.insurance-cta-button:hover
+{
+  gap:32px;
+  box-shadow: #fdefef 0px 4px 12px, #fdefef 0px -4px 12px ;
+}
+
+.services-button-container
+{
+    display: flex;
+    gap:24px;
+    flex-wrap: wrap;
+
+    margin-top: 24px;
+
+    justify-content: center;
+
+    
+}
+
+.service-item-button
+{
+
+    cursor: pointer;
+
+    background-color: inherit;
+
+    border: 1px solid #fdefef;
+
+    /* min-width:  360px; */
+    overflow: hidden;
+    
+    border-radius: 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:12px 12px;
+
+    gap: 12px;
+
+    height: 200px;
+
+    /* border:1px solid #fdefef; */
+
+
+
+    /* font-family: 'Anek Tamil Condensed';
+    font-family: "Anek Tamil", sans-serif;
+  font-variation-settings:"wdth" 70;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  white-space: normal;
+  color: #fdefef; */
+
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 320px;
+  text-align: left;
+
+
+
+
+
+  
+  
+}
+
+
+@media (max-width:720px)  { 
+
+  .insurance-cta-button-wrapper
+
+  {
+     padding-top: 120px;
+     padding-bottom: 120px;
+  }
+
+  .retirement-cta-button-wrapper
+{
+
+    margin-top: 120px;
+  margin-bottom: 120px;
+}
+  .retirement-cta-button
+  {
+    max-width: 100%;
+    padding:8px 16px;
+
+  }
+
+
+
+  
+
+}

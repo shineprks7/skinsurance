@@ -1,0 +1,338 @@
+
+
+
+body
+{
+  font-family: "Anek Tamil", sans-serif;
+  font-variation-settings:"wdth" 100;
+
+}
+
+.site-logo-text
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    white-space: normal;
+    color: #191682;
+
+}
+
+
+.hero-title
+
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    white-space: normal;
+    color: #fdefef;
+
+}
+
+.hero-title .hero-text-part
+{
+  display: inline-block;
+  height: 64px;
+  overflow: hidden;
+}
+
+.hero-title .hero-text-part .hero-text-part-inner
+{
+  transform:translate(0,110%);
+  display: inline-block;
+  transition: transform 1s cubic-bezier(0.215, 0.610, 0.355, 1);
+
+}
+
+.hero-sub-title .hero-text-part
+{
+  display: inline-block;
+  height: 28px;
+  overflow: hidden;
+}
+
+.hero-sub-title .hero-text-part .hero-text-part-inner
+{
+  transform:translate(0,110%);
+  display: inline-block;
+
+  transition: transform 1s cubic-bezier(0.215, 0.610, 0.355, 1);
+
+  transition-delay: 1s;
+}
+
+.hero-title.show .hero-text-part .hero-text-part-inner
+
+{
+    transform:translate(0,0%);
+  
+}
+.hero-sub-title.show .hero-text-part .hero-text-part-inner
+{
+    transform:translate(0,0%);
+
+}
+
+.hero-sub-title
+
+{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  white-space: normal;
+  color: #fdefef;
+
+}
+
+
+.heading-3
+
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px !important;
+    line-height: 36px !important;
+    white-space: normal;
+    color: #f6f5f5;
+    font-family: 'Anek Tamil Condensed';
+
+    font-family: "Anek Tamil", sans-serif;
+  font-variation-settings:"wdth" 70;
+}
+
+.heading-5
+
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    white-space: normal;
+    color: #f9f4f4;
+    font-family: 'Anek Tamil Condensed';
+
+    font-family: "Anek Tamil", sans-serif;
+  font-variation-settings:"wdth" 70;
+}
+
+.body-text
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    white-space: normal;
+    color: #f6f6f6;
+}
+
+.body-text-big
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    white-space: normal;
+    text-align: center;
+    color: #e7e3e3;
+}
+
+.profile-badge-icon img
+{
+  width: 24px;
+  height: 24px;
+}
+
+.profile-paragraph:first-of-type
+{
+margin-top: 0px;
+}
+.profile-paragraph
+
+{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  white-space: normal;
+  color: #f6f6f6;
+  margin-top:48px;
+}
+
+
+
+
+.profile-section-step-text
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    white-space: normal;
+    width: 50%;
+    color: #f4eeee;
+
+}
+
+
+.why-choose-section .list-item-text
+
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    white-space: normal;
+    color: #f0e5e5;
+
+    width: 90%;
+
+
+}
+
+.why-choose-section .list-item-divider
+
+{
+  
+    height: 1px;
+    width: 100%;
+    background: #bdbdbd;
+    margin-top: 88px;
+
+}
+
+.services-title
+{
+    margin-top: 120px;
+  
+    text-align: center;
+
+    
+}
+.services-title span
+{
+    display: inline-block;
+    background-color: #fdefef;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    white-space: normal;
+    color: #1f42a5;
+    padding: 8px 12px;
+    width: auto;
+
+
+
+}
+
+
+.insurance-section-main-title
+{
+    color: #fdefef;
+    margin-top:96px;
+}
+
+.insurance-section-title
+{
+    color: #fdefef;
+    margin-top: 24px;
+}
+
+.insurance-section-title-paragraph
+{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  white-space: normal;
+  color: #fdefef;
+
+  margin-top: 32px;
+}
+
+
+.retirement-section-main-title
+{
+    color: #191682 !important;
+    margin-top:96px;
+
+}
+
+.retirement-section-title
+{
+    color: #191682 !important;
+  font-style: normal;
+  font-weight: 700;
+  white-space: normal;
+  margin-top:24px;
+
+}
+
+
+
+.retirement-benefits-title
+{
+        color: #191682;
+          white-space: normal;
+          border-bottom: 2px solid #191682;
+          height: 48px;
+          margin-top: 96px;
+
+}
+
+.other-services-title
+{
+    
+  
+  color: #1f42a5;
+
+}
+
+.final-cta-content
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.4px;
+    line-height: 20px;
+    white-space: normal;
+    color: #10053a;
+
+    width: 320px;
+}
+.slider-cta-content
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.4px;
+    line-height: 20px;
+    white-space: normal;
+    color: #10053a;
+    width: 360px;
+}
+
+@media screen and (min-height:500px)  { 
+    .why-choose-section .list-item-text
+
+    {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    white-space: normal;
+    color: #f0e5e5;
+
+    width: 80%;
+    }
+
+    .site-logo-text
+    {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+}
+

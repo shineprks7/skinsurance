@@ -1,0 +1,38 @@
+/* .section-sticky-title.sticky-active
+{
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+
+
+    z-index: 1000;
+    background-color: aliceblue;
+    width: 100%;
+    padding-top:24px;
+    padding-bottom: 24px;
+    height: auto;
+    margin-top: 0px;
+    padding-left: 16.66%;
+    padding-right: 16.66%;
+    box-sizing: border-box;
+
+}
+
+.about-section-title.section-sticky-title.sticky-active
+{
+    color: blue;
+}
+
+.profile-section-step-container.sticky-active
+
+{
+  position: fixed;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+
+ */

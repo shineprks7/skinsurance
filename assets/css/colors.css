@@ -1,0 +1,280 @@
+.primary-bg
+{
+
+    background-color:#03045e;
+
+
+}
+.primary-font
+{
+
+    color:#03045e; 
+
+
+
+
+}
+.primary-border
+{
+
+    border:2px solid #03045e; 
+
+
+
+
+}
+.light-border
+{
+
+    border:1px solid #fff; 
+
+
+
+
+}
+
+.primary-shade-2-border
+{
+   border:2px solid #1F42A5 ;
+}
+
+.primary-shade-1-bg
+{
+    background-color:#0077b6;
+
+}
+.primary-shade-2-bg
+{
+   background-color:#1F42A5 ;
+}
+.primary-shade-2-font
+{
+   color:#1F42A5 ;
+}
+.primary-shade-3-bg
+{
+
+    background-color: #1f85a5;
+
+}
+.primary-shade-3-font
+{
+
+    color: #1f85a5;
+
+}
+
+.accent-bg
+{
+    /* background-color: #AEBD21; */
+    background-color: #a5821f;
+
+    /* background-color: #E9C240; */
+
+    /*split*/
+    background-color: #a6901f; 
+
+    /* color:#24242C; */
+    /* background-color:#1f85a5; */
+
+    /* color:#1F42A5; */
+
+    color:#1a1227;
+
+
+}
+.accent-font
+{
+    color: #a5821f;
+    font-weight: bold;
+   
+
+}
+.secondary-bg
+{
+
+}
+
+.accent-bg
+{
+
+}
+
+.light-primary-bg
+{
+
+    background-color:#f6f6f6;
+
+
+
+}
+
+.light-primary-font
+{
+
+    color:#f6f6f6;
+
+
+
+}
+
+
+.dark-primary
+{
+    background-color: #1B0C0C;
+}
+
+.gray-primary
+{
+
+    background-color: #808080;
+}
+
+.gray-primary-border
+{
+
+    border-color: #808080;
+}
+
+
+.gray-darker
+{
+    background-color: #B4B4AE;
+
+}
+
+.gray-lighter
+{
+    background-color: #B4B4AE;
+
+}
+
+.primary-neutral
+{
+    background-color: #90E0EF;
+    
+}
+.primary-neutral-light
+{
+    background-color: #e1e6e9;
+    
+}
+
+.profile-badge-color
+{
+    background-color: #393b6e;
+}
+
+
+.light-secondary-bg
+{
+
+     background-color: #dad4d4;
+}
+
+
+
+
+.pure-dark-font
+{
+    color:#000;
+}
+
+.primary-neutral-font
+{
+    color: #ABBBE9;
+    
+}
+
+
+.section-darkcool-bg
+{
+        background-color: #27406f;
+
+}
+/* .section-darkcool-font
+{
+        background-color: #27406f;
+
+} */
+.section-lightcool-bg
+{
+    
+    background-color: #778baf;
+
+    background-color: #27406f;
+
+}
+.services-cool-icon
+{
+  color:#232F33;
+
+}
+
+.services-cool-font
+{
+  color:#232F33;
+
+}
+
+.retirement-benefit-bg-1
+{
+    background-color: #1fa69a;
+}
+.retirement-benefit-bg-2
+{
+    background-color: #1f5ca6;
+}
+.retirement-benefit-bg-3
+{
+    background-color: #1f86a6;
+}
+
+.retirement-benefit-bg-4
+{
+    background-color: #1fa66c;
+}
+.retirement-benefit-bg-5
+{
+    background-color: #5793a6;
+}
+
+
+.profile-step-bg-1
+{
+    background-color: #1f6ea6;
+
+}
+.profile-step-bg-2
+{
+    background-color: #6137a6;
+
+}
+.profile-step-bg-3
+{
+    background-color: #576ca6;
+
+}
+
+
+
+
+
+
+.profile-row-left-section
+{
+    background-color: #fff;
+
+    height: 500px;
+}
+.profile-row-right-section
+{
+    background-color: #fff;
+    height: 500px;
+
+}
+
+.profile-section-step-wrapper
+{
+    background-color: #fff;
+}

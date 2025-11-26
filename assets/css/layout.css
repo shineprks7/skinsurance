@@ -1,0 +1,1267 @@
+
+body
+{
+margin:0px;
+background: #e9e5e5;
+
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
+
+.hero-row
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    box-sizing: border-box;
+
+    height: 100%;
+    padding-top: 72px;
+}
+
+.hero-left-subsection
+{
+    width: 48%; 
+    box-sizing: border-box;
+
+}
+
+.hero-right-subsection
+{
+    width: 48%; 
+    box-sizing: border-box;
+
+
+}
+
+.hero-right-subsection .hero-image
+{
+    max-height: 100%;
+    max-width: 100%;
+    
+
+    width: 366px;
+    height: 489px;
+
+    width: auto;
+    height: auto;
+
+    transform: translate(500%,0);
+    transition: transform 1s cubic-bezier(0.215, 0.610, 0.355, 1);
+
+    transition-delay: 1.5s;
+}
+
+
+
+.hero-right-subsection .hero-image.show
+{
+    transform: translate(0%,0);
+
+}
+
+
+
+.section-container
+{
+    box-sizing: border-box;
+    padding-left: 16.66%;
+    padding-right: 16.66%;
+  
+}
+
+.nav-bar-wrapper
+{
+    width: 100%;
+    height: 96px;
+    overflow: hidden;
+    background: #fff;
+    position: absolute;
+
+    padding-left: 8.33%;
+    padding-right: 8.33%;
+    box-sizing: border-box;
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    position: fixed;
+    top:0px;
+    left:0px;
+    z-index: 1000;
+
+    border-bottom: 1px solid blue;
+}
+
+.spacer
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+.hero-section
+{
+    height: 698px;
+    overflow: hidden;
+    background: linear-gradient(180deg, #231e65 0%, #166ca5 100%);
+  
+  }
+
+.slider-section
+{
+    /* background-color: #fff; */
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.slider-shape-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.about-section
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 120px;
+
+
+
+}
+
+.why-choose-section
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+
+    padding-bottom: 120px;
+    
+}
+.services-section
+{
+    position: relative;
+    width: 100%;
+
+    overflow: hidden;
+    padding-bottom: 120px;
+}
+.insurance-section
+{
+    position: relative;
+    width: 100%;
+
+    overflow: hidden;
+    padding-bottom: 120px;
+
+    border-top:2px solid #fff;
+}
+
+.retirement-section
+{
+    position: relative;
+    width: 100%;
+    
+    overflow: hidden;
+}
+
+
+.profile-row
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin-top: 2px;
+    position: relative;
+
+
+}
+
+
+
+.profile-row-left-section
+{
+  width: 48%;
+
+  padding:24px 16px;
+  position: relative;
+  height: 600px;
+
+
+}
+
+.profile-row-right-section
+{
+   width: 48%; 
+   padding:24px 16px;
+   position: relative;
+
+   height: 600px;
+
+}
+
+
+
+
+
+
+
+.about-section-title
+{
+    margin-top: 120px;
+
+    border-bottom:2px solid blue;
+
+    position: relative;
+    
+}
+
+.why-choose-section-title
+{
+    margin-top: 120px;
+
+
+    position: relative;
+    
+}
+
+/* .about-section-balance-circle
+{
+   background-color: blue;
+   width: 24px;
+   height: 24px;
+   border-radius: 50%;
+   position: absolute;
+   right: 0px;
+   top:50%;
+   transform: translate(0,-50%);
+}
+
+.about-section-balance-circle-2
+{
+   background-color: blue;
+   width: 24px;
+   height: 24px;
+   border-radius: 50%;
+   position: absolute;
+   right: 32px;
+   top:50%;
+   transform: translate(0,-50%);
+}
+
+.about-section-balance-circle-3
+{
+   background-color: blue;
+   width: 24px;
+   height: 24px;
+   border-radius: 50%;
+   position: absolute;
+   right: 64px;
+   top:50%;
+   transform: translate(0,-50%);
+} */
+
+.profile-art-wrapper
+{
+  text-align: center;
+}
+
+.profie_art_image
+{
+    width: calc(341px - 68px);
+    height: calc( 360px -72px);
+    overflow: hidden;
+    border-radius: 12px;
+    border: 8px  solid #808080;
+    text-align: center;
+    object-fit: cover;
+    background-color: #1f85a5;
+  
+    
+}
+.profile-badge-wrapper
+{
+    margin-top: 24px;
+
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-badge
+{
+    display: flex;
+    box-sizing: border-box;
+    
+    overflow: hidden;
+    border-radius: 12px;
+    border: 2px  solid #808080;
+    align-items: center;
+    flex-wrap: wrap;
+
+    padding:12px 8px;
+
+    margin-top: 8px;
+
+    gap:24px;
+}
+
+
+.profile-section-step-wrapper
+{
+
+  
+
+
+    height: auto;
+
+    padding: 24px 16px;
+    margin-top: 2px;
+
+    position: relative;
+
+}
+
+
+
+.profile-section-step-container
+{
+
+
+    width:100%;
+
+    height: 300px;
+    position: relative;
+
+}
+
+.profile-section-step
+{
+  
+  width: 800px;
+  height: 96px;
+  overflow: hidden;
+  border-width: 1px;
+  border-style: solid;
+  display: flex;
+  justify-content: space-around;
+
+  align-items: center;
+
+  gap: 80px;
+
+  flex-wrap: wrap;
+
+  opacity: 1;
+  transition:opacity 0.2s cubic-bezier(0.215, 0.610, 0.355, 1);
+
+
+}
+.profile-section-step.show-stepper
+{
+  opacity: 1;
+}
+.profile-section-step-icon
+{
+
+    display: inline-block;
+
+}
+
+
+.profile-section-step-1
+{
+    /* background: #191682; */
+
+
+    bottom: 0px;
+    position: absolute;
+     left: 0px;
+
+}
+
+.profile-section-step-2
+{
+    /* background: #1f42a5; */
+    /* margin-left: 48px; */
+
+    top: 50%;
+    position: absolute;
+     left: 48px;
+     transform: translate(0,-50%);
+
+}
+.profile-section-step-3
+{
+    /* background: #191682; */
+
+    top: 0px;
+    position: absolute;
+     left: 96px;
+
+
+}
+
+
+.why-choose-section .list-item-row
+
+{
+
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+    gap:24px;
+    align-items: center;
+
+    width: 100%;
+
+}
+
+.why-choose-list-item
+{
+    margin-top:88px;
+}
+
+.divider-services
+{
+    background-color: #ddd;
+    height: 2px;
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 120px;
+}
+
+.insurance-section-imagewrap
+{
+ text-align: center;
+
+ margin-top: 48px;
+}
+
+.insurance-section-imagewrap img
+{
+     max-width: 80%;
+     width: auto;
+     height: auto;
+
+
+
+}
+
+.insurance-cards-flex-box
+{
+
+    display: flex;
+    gap:64px;
+
+    justify-content: space-around;
+
+    flex-wrap: wrap;
+
+    margin-top: 80px;
+    position: relative;
+
+    padding: 0px;
+    padding-top: 120px;
+
+
+}
+
+.insurance-card
+{
+
+    position: relative;
+    width: calc(50% - 48px);
+    overflow: hidden;
+    border-radius: 26px;
+    border: 2px  solid #808080;
+
+    min-height:400px ;
+    padding:24px;
+
+}
+
+
+.insurance-card-endowment-before
+{
+  background-image: url(../images/Patterns/pattern_savings_insurance_2_light.png);
+
+  background-repeat: repeat;
+
+  background-size: 99px 82px;
+
+  width: 500%;
+  height: 200%;
+  top:0px;
+  left: 0px;
+  transform:translate(-50%,0);
+  position: absolute;
+
+}
+.insurance-card-bg-overlay
+{
+
+    
+  width: 100%;
+  height: 100%;
+  top:0px;
+  left: 0px;
+  position: absolute;
+
+
+  
+
+
+}
+
+.insurance-card-title
+
+{
+    /* font-family: 'Anek Tamil Condensed';
+    font-family: "Anek Tamil", sans-serif;
+  font-variation-settings:"wdth" 70;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  white-space: normal; */
+  /* color: #fdefef; */
+
+  display: block;
+
+  z-index: 100;
+  position: relative;
+
+
+}
+
+.insurance-card-paragraph
+
+{
+    /* font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    white-space: normal; */
+    /* color: #fdefef; */
+    margin-top: 20px;
+    /* background-color: rgba(42, 8, 105, 0.10); */
+
+    position: relative;
+   
+
+
+}
+
+.retirement-image-wrapper
+{
+    margin-top: 96px;
+    position: relative;
+
+}
+
+
+.retirement-image-wrapper img
+{
+     width:100%;
+     height: auto;
+}
+
+.retirement-image-wrapper::after
+{
+  background-color: rgba(0, 0, 0, 0.25);
+  content: "";
+  top:0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  border-radius:24px;
+  
+}
+
+
+
+.retirement-image-desktop
+{
+  display: inline-block;
+}
+.retirement-image-mobile
+{
+    display: none;
+  
+}
+
+.retirement-benefits-list-wrapper
+{
+
+    position: relative;
+    padding:64px 24px;
+
+    padding-bottom: 184px;
+
+    height: auto;
+    overflow: hidden;
+    border-radius: 24px;
+    /* background: linear-gradient(180deg, #b89898 0%, #4356a0 100%); */
+
+    /* border: 1px double #4356a0 ; */
+  }
+
+
+  .retirement-benefits-list-row
+  {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 120px;
+
+    align-items: center;
+
+    justify-content: center;
+
+    margin-top: 120px;
+
+    flex-wrap: wrap;
+
+
+
+  }
+
+  .retirement-benefits-list-icon-wrap 
+  {
+    position: relative;
+    width: 136px;
+    height: 136px;
+    overflow: hidden;
+    /* border: 2px  solid #4356a0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    white-space: nowrap;
+    text-align: center;
+    /* color: #4356a0; */
+    /* background-color: #dad4d4; */
+    border-radius: 0%;
+
+
+
+  }
+
+  .benifit-icon-image-wrap
+  {
+     
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    
+  }
+  .benifit-icon-image-wrap img
+
+  {
+     
+  }
+
+  .benifit-icon-text
+  {
+    
+
+  }
+
+  .retirement-benefits-list-card 
+  {
+    position: relative;
+    width: 100%;
+    /* height: 240px; */
+    overflow: hidden;
+    /* background: #4356a0; */
+    /* background: #dad4d4; */
+
+    /* display: flex;
+    justify-content: flex-start;
+    padding: 24px;
+    align-content: center; */
+
+   padding: 0px;
+
+   text-align: center;
+
+   
+
+  }
+
+  .retirement-benifit-image-wrapper
+  {
+    padding:24px;
+
+  }
+  .retirement-benifit-image-wrapper img
+  {
+    
+    height: 240px;
+    width: auto;
+  }
+
+  .retirement-benifit-paragraph
+  {
+    /* font-family: 'Anek Tamil';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px; */
+    white-space: normal;
+    /* color: #ffffff;
+    color: #191682; */
+    /* margin-top:24px; */
+    padding:24px;
+    background-color: #1f85a5;
+
+    color:#fff;
+
+    font-weight: bold;
+
+    margin:0px;
+
+    
+  }
+  
+  .section-divider
+  {
+     margin-top:96px;
+     margin-bottom:96px;
+
+     height: 2px;
+     background-color: #ddd;
+
+  }
+
+  .other-services-wrapper
+  {
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+
+  .other-services-row
+  {
+    display: flex;
+    justify-content: space-between;
+
+    gap:24px;
+
+    flex-wrap: wrap;
+
+  }
+
+  .other-services-card
+  {
+    /* background-color: #1f42a5; */
+
+    width: 48% ;
+    padding:48px 48px;
+    overflow: hidden;
+
+  }
+
+  .other-services-card .other-services-title
+{
+    /* font-family: 'Anek Tamil Condensed';
+    font-family: "Anek Tamil", sans-serif;
+  font-variation-settings:"wdth" 70;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px; */
+    white-space: normal;
+    /* color: #fdefef; */
+
+}
+.other-services-card  .other-services-image-wrap
+{
+  position: relative;
+  text-align: center;
+
+  height: 320px;
+  background-color: #ddd;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 12px;
+  
+
+}
+
+.other-services-card .other-services-image-wrap .main-image
+{
+
+    max-width: 240px;
+
+    width: auto;
+    height: auto;
+    max-height: 240px;
+    position: relative;
+
+}
+.other-services-card .other-services-image-wrap .bg-image
+{
+
+    width: 200%;
+    height: auto;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display: none;
+
+    
+    
+
+}
+
+.other-services-card .other-services-content
+{
+    /* font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    white-space: normal; */
+    /* color: #fdefef; */
+
+    min-height: 360px;
+
+
+}
+
+
+
+
+.other-services-card .other-services-content .flex-list-item
+{
+
+    display: flex;
+    justify-content: flex-start;
+    gap: 24px;
+    align-items: center;
+    margin-top: 16px;
+
+    padding: 12px 12px;
+}
+
+.other-services-card .other-services-content .flex-list-item .list-icon
+{
+  width: 24px;
+  height: 24px;
+
+}
+
+.cta-final-wrapper
+{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 13px;
+    /* border: 4px  solid #10053a; */
+    margin-top: 120px;
+    margin-bottom: 120px;
+    padding: 48px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta-final-wrapper-row
+{
+    display: flex;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.slider-final-wrapper
+{
+    position: relative;
+    width: 80%;
+    overflow: hidden;
+    border-radius: 13px;
+    /* border: 4px  solid #10053a; */
+    padding: 24px;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slider-final-wrapper-row
+{
+    display: flex;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+
+
+
+.footer
+
+{
+
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    /* background: #10053a; */
+    
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+}
+.footer-row
+{
+display: flex;
+justify-content: space-between;
+flex-wrap: nowrap;
+
+}
+.footer-business-info
+{
+    width: 48%;
+}
+
+.footer-affiliation-info
+{
+   width: 48%;
+}
+
+.footer-logo-text
+{
+    font-family: 'Anek Tamil Condensed';
+    font-family: "Anek Tamil", sans-serif;
+  font-variation-settings:"wdth" 70;
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    white-space: normal;
+    /* color: #fdefef; */
+    margin-bottom: 64px;
+}
+
+.footer-contact-info-list
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:24px;
+    font-family: 'Inter';
+
+  /* font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  white-space: normal; */
+  /* color: #f2e1e1; */
+
+  margin-top: 12px;
+}
+
+.footer-solicitation-info
+{
+  /* font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  white-space: normal; */
+  /* color: #fdefef; */
+
+}
+
+.footer-licence-info
+{
+
+    position: relative;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 2px  solid #8886d8;
+    padding:0px 24px 24px 24px;
+
+}
+
+.footer-licence-info-listitem
+{
+    /* font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    white-space: normal; */
+    /* color: #f2e1e1; */
+    margin-top: 24px;
+}
+
+@media (max-width:1060px)  { 
+
+    .section-container
+    {
+        box-sizing: border-box;
+        padding-left:8.33%;
+        padding-right: 8.33%;
+      
+    }
+    .nav-bar-wrapper
+    {
+        padding-left:12px;
+        padding-right: 12px;
+
+    }
+
+
+    .other-services-card
+  {
+    /* background-color: #1f42a5; */
+
+    width: 75%;
+    padding:24px 24px;
+
+  }
+
+}
+
+@media (max-width:720px)  { 
+
+
+    .hero-left-subsection
+{
+
+ width: 96%;
+}
+    .footer-logo-text
+{
+   font-size: 16px;
+   line-height: 20px;
+}
+
+.hero-right-subsection
+
+{
+  display: none;
+}
+    .profile-row-left-section
+{
+  width: 96%;
+
+}
+
+.profile-badge-wrapper
+{
+    margin-top: 24px;
+
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-row-right-section
+{
+   width: 96%; 
+   margin-top:120px;
+}
+
+.profile-section-step-1
+{
+  left: 0px;
+}
+
+.profile-section-step-2
+{
+    left: 0px;
+   
+}
+.profile-section-step-3
+{
+    left: 0px;
+ 
+}
+
+.profile-section-step
+{
+ width: 96%;
+ gap:24px;
+
+ 
+}
+
+
+.insurance-section-imagewrap img
+{
+     max-width: 90%;
+     width: auto;
+     height: auto;
+
+}
+
+.insurance-card
+{
+
+    position: relative;
+    width: calc(100% - 8px);
+    overflow: hidden;
+    border-radius: 26px;
+    border: 1px  solid #808080;
+
+    min-height:400px ;
+    padding:24px;
+}
+
+.section-container
+{
+    box-sizing: border-box;
+    padding-left:24px;
+    padding-right: 24px;
+  
+}
+
+
+
+
+.retirement-image-desktop
+{
+  display: none;
+}
+.retirement-image-mobile
+{
+    display: inline-block;
+  
+}
+
+
+.retirement-benefits-list-wrapper
+{
+    padding: 8px 8px;
+}
+
+.retirement-benefits-list-row
+{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 120px;
+
+  align-items: center;
+
+  margin-top: 120px;
+
+
+}
+
+.retirement-benefits-list-card 
+{
+  width: 100%;
+}
+
+
+.other-services-card
+  {
+    /* background-color: #1f42a5; */
+
+    width: 100%;
+    padding:24px 24px;
+
+  }
+
+
+
+.footer-business-info
+{
+    width: 96%;
+}
+
+.footer-affiliation-info
+{
+   width: 96%;
+}
+
+.cta-final-wrapper
+{
+ width: 96%;
+ padding: 24px;
+
+}
+.cta-final-wrapper-row
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    flex-wrap: nowrap;
+    align-items: center;
+
+}
+
+
+
+.footer-row
+{
+    flex-wrap: wrap;
+
+    gap:64px;
+}
+
+.footer-business-info
+{
+    width: 98%;
+}
+
+.footer-affiliation-info
+{
+   width: 98%;
+}
+
+.slider-final-wrapper
+{
+
+ width: 96%;
+ 
+}
+
+
+    
+}
