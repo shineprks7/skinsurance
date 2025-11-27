@@ -1,2 +1,42 @@
+.other-service-image-container
+{
+    height: 760px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    flex-wrap: wrap;
+}
+
+.balloon-image-wrapper
+{
+    background-color: rgb(71, 73, 233);
+    width: auto;
+    height: auto;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.balloon-image-wrapper .balloon-image
+
+{
+  width: 360px;
+  height: 360px;
 
 
+}
+
+#svg-container-curve
+{
+    position:absolute;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    overflow: visible;
+}

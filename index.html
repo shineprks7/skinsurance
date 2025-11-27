@@ -6,7 +6,7 @@
 
   <link rel="icon" type="image/png" href="assets/images/logo.png">
 
-  <title>எல்.ஐ.சி முகவர் மணிகண்டன்</title>
+  <title> எஸ்.கே. இன்ஷூரன்ஸ் </title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,9 +15,12 @@
 
    <link rel="stylesheet" href="assets/css/colors.css" />
 
+
+
    <link rel="stylesheet" href="assets/css/layout.css" />
 
    <link rel="stylesheet" href="assets/css/aboutsection.css" />
+   <link rel="stylesheet" href="assets/css/retirementbenifits.css" />
 
    <link rel="stylesheet" href="assets/css/typography2.css" />
    <link rel="stylesheet" href="assets/css/index.css"/>
@@ -36,7 +39,7 @@
      <header class="nav-bar-wrapper"> 
       <span class="site-logo-icon" > <img src="assets/images/logo.png" /> </span>
 
-      <span class="site-logo-text" style="margin-left: 24px;"> முகவர் மணிகண்டன் </span>
+      <span class="site-logo-text" style="margin-left: 24px;"> எஸ்.கே. இன்ஷூரன்ஸ் </span>
 
       <div class="spacer"></div>
       
@@ -107,7 +110,7 @@
                 <span class="hero-text-part"> <span class="hero-text-part-inner"> மறப்பீர்.  </span></span> </br>
             </h1>
 
-             <h3 class="hero-sub-title light-primary-font"> <span class="hero-text-part"> <span class="hero-text-part-inner"> உங்கள் எல்.ஐ.சி முகவர்</span></span> </br><span class="hero-text-part"> <span class="hero-text-part-inner"> மணிகண்டன்.</span>  </span></h3>
+             <h3 class="hero-sub-title light-primary-font"> <span class="hero-text-part"> <span class="hero-text-part-inner"> உங்கள் எல்.ஐ.சி ஆலோசகர்</span></span> </br><span class="hero-text-part"> <span class="hero-text-part-inner"> சரவணக்குமார்.</span>  </span></h3>
 
              <a href="contact.html#contact-info"> <button class="hero-button accent-bg"> தொடர்பு கொள்ள 
                
@@ -185,14 +188,14 @@
   
                     <span class="profile-badge-icon"> <img src="assets/images/icons/profile_id_dark.svg" /> </span>
 
-                    <span class="body-text-big ">திரு. மணிகண்டன்</span>
+                    <span class="body-text-big ">திரு. சரவணக்குமார்</span>
                    
                  </div>
 
                  <div class="profile-badge " style="margin-top:24px"> 
 
                   <span class="profile-badge-icon"> <img src="assets/images/icons/school_dark.svg" />  </span>
-                  <span class="body-text-big">M.COM B.Ed</span>
+                  <span class="body-text-big">MBA</span>
 
                  </div>
 
@@ -255,7 +258,7 @@
                       <main class="profile-section-step-container scroll-reveal">
                        <div class="profile-section-step profile-section-step-3 profile-step-bg-3 light-primary-font">
                         <span class="profile-section-step-icon"> <img src="assets/images/icons/military-badge.svg" /> </span>
-                        <span class="profile-section-step-text "> 15 வருட அனுபவம்</span>
+                        <span class="profile-section-step-text "> 10 வருட அனுபவம்</span>
                     
                        </div>
 
@@ -580,12 +583,12 @@
                      <main class="retirement-benefits-list-wrapper section-sticky-content">
 
                       
-                            <div>
+                            <div class="retirement-benefits-list-wrapper-inner">
                                  <div class="retirement-benefits-list-row scroll-reveal">
 
                                       <div class="retirement-benefits-list-icon-wrap ">
 
-                                         <span class="benifit-icon-text primary-shade-3-font">01</span> 
+                                         <span class="benifit-icon-text ">01</span> 
                                         
                                         </div>
                                       <div class="retirement-benefits-list-card retirement-benefit-bg-1"> 
@@ -705,6 +708,12 @@
 
          <h3 class="heading-3 other-services-title scroll-reveal"> பிற சேவைகள் </h3>
 
+
+         <main style="position: relative;" id="connector-container">
+
+
+        
+
          <div class="other-services-wrapper ">
 
              <div class="other-services-row">
@@ -717,7 +726,7 @@
                       <div class="other-services-content ">
                           <li class="flex-list-item"> 
 
-                            <span class="list-icon">
+                            <span class="list-icon" >
                                  <img src="assets/images/icons/medical_insurance_primary.svg" />
                             </span>
                             <span class="list-text">
@@ -726,7 +735,7 @@
                           </li>
                           <li class="flex-list-item"> 
 
-                           <span class="list-icon">
+                           <span class="list-icon" id="pointA2">
                                 <img src="assets/images/icons/accidental_insurance_primary.svg" />
                            </span>
                            <span class="list-text">
@@ -759,6 +768,8 @@
 
 
                      </div>
+
+                     
 
 
                   </div>
@@ -806,11 +817,34 @@
 
                      </div>
 
+                     
+
+
 
                   </div>
              </div>
 
          </div>
+
+         <svg id="svg-container-curve" style="display:none;">
+
+          <defs>
+             <marker id="arrowhead" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+
+                <path d="M 0 0 L 10 5 L 0 10 Z" fill="#ddd"></path>
+             </marker>
+          </defs>
+
+          <path id="curve-arrow" stroke="orange" fill="none" stroke-width="4" marker-end="url(#arrowhead)">
+
+          </path>
+
+          
+
+       </svg>
+
+         </main>
+
 
 
         </div>
@@ -905,6 +939,9 @@
 
 
 <script src="assets/js/anime.js"> </script>
+
+<!-- <script src="assets/js/connector.js"> </script> -->
+
 
 <script src="assets/js/scrolling.js"> </script>
 

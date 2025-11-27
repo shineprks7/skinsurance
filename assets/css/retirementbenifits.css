@@ -1,0 +1,78 @@
+
+
+.retirement-benefits-list-card
+{
+     width: 100%;
+     margin: 0px;
+     height: 100%;
+
+
+}
+
+
+
+.retirement-benefits-list-wrapper-inner
+{
+  display: flex;
+  flex-wrap: wrap;
+  gap:12px;
+}
+
+.retirement-benefits-list-row
+{
+    display: block;
+    width: 32%;
+    /* height: 360px; */
+
+    position: relative;
+}
+
+.retirement-benifit-image-wrapper img
+  {
+    
+    height: 120px;
+    width: auto;
+  }
+
+  .retirement-benifit-paragraph
+  {
+    height: 240px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: last baseline;
+    flex-wrap: wrap;
+    text-align: right;
+    background-color: #1f5ca6;
+    
+
+  }
+
+  .retirement-benefits-list-icon-wrap
+  {
+    position: absolute;
+
+    left: -4px;
+    top: -4px;
+    border: 6px solid #fff;
+
+    color: #fff;
+
+    z-index: 4;
+
+    width:64px;
+    height: 64px;
+    font-weight: 900;
+
+  }
+
+
+  @media (max-width:720px)  { 
+
+
+    .retirement-benefits-list-row
+    {
+
+        width: 100%;
+    }
+
+  }

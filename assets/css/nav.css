@@ -1,6 +1,6 @@
 .site-logo-icon img
 {
- height: 32px;
+ height: 88px;
  width: auto;
 }
 
@@ -9,9 +9,10 @@
   position: relative;
   display: inline-block;
   top: 0px;
-  padding: 8px;
-  border: 4px  solid #2b18a7;
+  padding: 4px;
   box-sizing: border-box;
+
+  border-bottom: 8px solid blue;
 }
 
 .desktop-menu-wrapper
