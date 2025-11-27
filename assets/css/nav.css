@@ -93,6 +93,12 @@
 
     @media (max-width: 860px) {
 
+      .site-logo-icon img
+{
+ height: 64px;
+ width: auto;
+}
+
        .destop-menu-wrapper
        {
           display: none;
