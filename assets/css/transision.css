@@ -5,12 +5,21 @@
 }
 .anim-highlight.active
 {
+    position: relative;
     color: #7dda13 !important;
+    text-decoration: overline;
 
     transform: scale(1.01);
 
     transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    /* display: inline-block; */
 }
+.anim-highlight.active::after
+{
+    
+
+}
+
 
 .scroll-reveal
 {
