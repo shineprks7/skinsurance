@@ -123,7 +123,7 @@ const svg = d3.select('#slider-path-wrapper')
 
          .attr("id","slider_animated_path")
 
-         .attr("fill","#7dda13")
+         .attr("fill","#ffa500")
          .attr("stroke-width", 2);
 
 

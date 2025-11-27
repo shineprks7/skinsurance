@@ -7,6 +7,20 @@
 
   padding-bottom: 48px;
   padding-top: 0px;
+  position: relative;
+  overflow: visible;
+}
+.retirement-benefits-list-wrapper::before
+{
+  content: "";
+  
+  position: absolute;
+  top:0px;
+  left: 0px;
+  transform: translate(-25%,0);
+  background-color: #fff;
+  width: 200%;
+  height: 100%;
 }
 .retirement-benefits-list-card
 {

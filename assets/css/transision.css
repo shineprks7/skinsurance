@@ -6,7 +6,7 @@
 .anim-highlight.active
 {
     position: relative;
-    color: #7dda13 !important;
+    color: #ffa500 !important;
     text-decoration: overline;
 
     transform: scale(1.01);
