@@ -23,6 +23,30 @@
 
 }
 
+.footer-site-logo-icon img
+{
+  height: 88px;
+ width: auto;
+}
+.footer-site-logo-icon
+{
+  position: relative;
+  display: inline-block;
+  top: 0px;
+  padding: 4px;
+  box-sizing: border-box;
+
+  /* border-bottom: 4px solid blue;
+  border-top: 4px solid blue; */
+
+  background-color: #fff;
+
+  border:2px solid #ffa500;
+
+
+
+}
+
 .desktop-menu-wrapper
 {
   display: block;

@@ -984,6 +984,7 @@ flex-wrap: nowrap;
     white-space: normal;
     /* color: #fdefef; */
     margin-bottom: 64px;
+    margin-top: 8px;
 }
 
 .footer-contact-info-list
