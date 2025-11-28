@@ -1182,6 +1182,32 @@ flex-wrap: nowrap;
 
 }
 
+.insurance-card
+{
+
+    position: relative;
+    width: 164px;
+    overflow: hidden;
+    border-radius: 8px;
+    border: 2px  solid #808080;
+
+    height: 164px;
+    overflow: hidden;
+    padding:8px;
+
+    font-size: 0.8em;
+
+
+
+}
+
+.insurance-card-icon img
+{
+  width: 32px;
+  height: 32px;
+}
+
+
 .section-container
 {
     box-sizing: border-box;
