@@ -487,17 +487,21 @@ background: #e9e5e5;
 {
 
     display: flex;
-    gap:64px;
+    gap:8px;
+    
+    
+    
 
-    justify-content: space-around;
+    justify-content: center;
 
     flex-wrap: wrap;
 
-    margin-top: 80px;
+    margin-top:24px;
     position: relative;
 
-    padding: 0px;
-    padding-top: 120px;
+    padding-bottom:24px;
+
+    padding-bottom: 24px;
 
 
 }
@@ -506,14 +510,22 @@ background: #e9e5e5;
 {
 
     position: relative;
-    width: calc(50% - 48px);
+    width: 240px;
     overflow: hidden;
-    border-radius: 26px;
+    border-radius: 8px;
     border: 2px  solid #808080;
 
-    min-height:400px ;
+    min-height: 100px;
+    height: 200px;
+    overflow: hidden;
     padding:24px;
 
+}
+
+.insurance-card-icon img
+{
+  width: 48px;
+  height: 48px;
 }
 
 
@@ -583,6 +595,7 @@ background: #e9e5e5;
     /* background-color: rgba(42, 8, 105, 0.10); */
 
     position: relative;
+    display: none;
    
 
 
@@ -788,6 +801,7 @@ background: #e9e5e5;
   {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     gap:24px;
 
@@ -799,7 +813,7 @@ background: #e9e5e5;
   {
     /* background-color: #1f42a5; */
 
-    width: 48% ;
+    width: 100% ;
     padding:48px 48px;
     overflow: hidden;
 
@@ -822,6 +836,7 @@ background: #e9e5e5;
 {
   position: relative;
   text-align: center;
+  width: 48%;
 
   height: 320px;
   background-color: #ddd;
@@ -873,7 +888,7 @@ background: #e9e5e5;
     white-space: normal; */
     /* color: #fdefef; */
 
-    min-height: 424px;
+     width: 48%;
 
 
 }
@@ -1155,14 +1170,16 @@ flex-wrap: nowrap;
 .insurance-card
 {
 
-    position: relative;
+    /* position: relative;
     width: calc(100% - 8px);
     overflow: hidden;
     border-radius: 26px;
     border: 1px  solid #808080;
 
-    min-height:400px ;
-    padding:24px;
+    padding:24px; */
+
+    width: 46%;
+
 }
 
 .section-container
@@ -1220,7 +1237,11 @@ flex-wrap: nowrap;
     padding:24px 24px;
 
   }
+  .other-services-card  .other-services-image-wrap
+  {
 
+     width: 96%;
+  }
 
 
 .footer-business-info
