@@ -4,7 +4,7 @@
 {
     background-color: #ddd;
 
-    background-color: #1f6ea6;
+    background-color: #1F42A5;
 
     color:#fff;
 
@@ -95,7 +95,7 @@
   transform: translate(0px,0);
   background-color: #ddd;
 
-  background-color: #421052;
+  background-color: #03045e;
 
 
 
@@ -163,7 +163,7 @@
   transform: translate(2px,0);
 
   background-color: #ddd;
-  background-color: #6137a6;
+  background-color: #6466da;
 
 
 }
@@ -191,7 +191,7 @@
 }
 .about-section-balance-circle-1
 {
-   background-color: #1f6ea6;
+   background-color: #1F42A5;
    width: 24px;
    height: 24px;
    border-radius: 50%;
@@ -203,7 +203,7 @@
 
 .about-section-balance-circle-2
 {
-   background-color: #6137a6;
+   background-color: #6466da;
    width: 24px;
    height: 24px;
    border-radius: 50%;
@@ -215,7 +215,7 @@
 
 .about-section-balance-circle-3
 {
-   background-color: #421052;
+   background-color: #03045e;
    width: 24px;
    height: 24px;
    border-radius: 50%;

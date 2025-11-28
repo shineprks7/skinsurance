@@ -193,6 +193,8 @@ background: #e9e5e5;
 }
 
 
+
+
 .profile-row
 {
     display: flex;
@@ -305,8 +307,8 @@ background: #e9e5e5;
     text-align: center;
     object-fit: cover;
     background-color: #1f85a5;
-
-    box-shadow: -12px -12px 0px 0px #421052, 12px 12px 0px 0px #6137a6 ;
+    
+    box-shadow: -12px -12px 0px 0px #6466da, 12px 12px 0px 0px #03045e ;
   
     
 }
@@ -335,7 +337,7 @@ background: #e9e5e5;
     margin-top: 8px;
 
     gap:24px;
-    background-color: #1f6ea6;
+    background-color: #1F42A5;
 
 }
 
@@ -647,6 +649,8 @@ background: #e9e5e5;
     display: none;
   
 }
+
+
 
 .retirement-benefits-list-wrapper
 {
