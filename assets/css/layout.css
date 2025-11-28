@@ -306,7 +306,7 @@ background: #e9e5e5;
     object-fit: cover;
     background-color: #1f85a5;
 
-    box-shadow: -12px -12px 0px 0px rgba(173, 230, 17, 0.979), 12px 12px 0px 0px rgb(126, 68, 219) ;
+    box-shadow: -12px -12px 0px 0px #421052, 12px 12px 0px 0px #6137a6 ;
   
     
 }
@@ -335,7 +335,7 @@ background: #e9e5e5;
     margin-top: 8px;
 
     gap:24px;
-    background-color: #1f85a5;
+    background-color: #1f6ea6;
 
 }
 
