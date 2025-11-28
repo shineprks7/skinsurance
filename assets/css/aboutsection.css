@@ -4,6 +4,10 @@
 {
     background-color: #ddd;
 
+    background-color: #1f6ea6;
+
+    color:#fff;
+
 }
 
 .profile-row-right-section::before
@@ -91,6 +95,9 @@
   transform: translate(0px,0);
   background-color: #ddd;
 
+  background-color: #421052;
+
+
 
 }
 
@@ -100,6 +107,8 @@
     width: 50%;
     height: 100%;
     background-color: #ddd;
+    /* background-color: #421052; */
+
     top:0px;
     left: 0px;
 }
@@ -154,6 +163,7 @@
   transform: translate(2px,0);
 
   background-color: #ddd;
+  background-color: #6137a6;
 
 
 }

@@ -294,11 +294,13 @@ background: #e9e5e5;
     width: calc(341px - 68px);
     height: calc( 360px -72px);
     overflow: hidden;
-    border-radius: 12px;
-    border: 8px  solid #808080;
+    border-radius: 4px;
+    /* border: 8px  solid #808080; */
     text-align: center;
     object-fit: cover;
     background-color: #1f85a5;
+
+    box-shadow: -12px -12px 0px 0px rgba(173, 230, 17, 0.979), 12px 12px 0px 0px rgb(126, 68, 219) ;
   
     
 }
@@ -306,7 +308,7 @@ background: #e9e5e5;
 {
     margin-top: 24px;
 
-    width: 260px;
+    width: 320px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -317,8 +319,8 @@ background: #e9e5e5;
     box-sizing: border-box;
     
     overflow: hidden;
-    border-radius: 12px;
-    border: 2px  solid #808080;
+    border-radius: 24px;
+    /* border: 2px  solid #808080; */
     align-items: center;
     flex-wrap: wrap;
 
@@ -327,6 +329,8 @@ background: #e9e5e5;
     margin-top: 8px;
 
     gap:24px;
+    background-color: #1f85a5;
+
 }
 
 
@@ -361,9 +365,10 @@ background: #e9e5e5;
 .profile-section-step
 {
   
+  
   width: 800px;
   height: 96px;
-  overflow: hidden;
+  overflow: visible;
   border-width: 1px;
   border-style: solid;
   display: flex;
@@ -377,6 +382,12 @@ background: #e9e5e5;
 
   opacity: 1;
   transition:opacity 0.2s cubic-bezier(0.215, 0.610, 0.355, 1);
+
+
+}
+.profile-section-step::after
+{
+  
 
 
 }
