@@ -493,7 +493,7 @@ background: #e9e5e5;
 {
 
     display: flex;
-    gap:8px;
+    gap:16px;
     
     
     
@@ -518,13 +518,15 @@ background: #e9e5e5;
     position: relative;
     width: 240px;
     overflow: hidden;
-    border-radius: 8px;
-    border: 2px  solid #808080;
+    border-radius: 0px;
+    /* border: 2px  solid #808080; */
 
     min-height: 100px;
     height: 200px;
     overflow: hidden;
     padding:24px;
+    background-color: #fff;
+    box-shadow: -8px -8px 0 0 #231e65;
 
 }
 
@@ -1184,7 +1186,7 @@ flex-wrap: nowrap;
 
     padding:24px; */
 
-    width: 46%;
+    /* width: 46%; */
 
 }
 
@@ -1194,8 +1196,8 @@ flex-wrap: nowrap;
     position: relative;
     width: 164px;
     overflow: hidden;
-    border-radius: 8px;
-    border: 2px  solid #808080;
+    border-radius: 0px;
+    /* border: 2px  solid #808080; */
 
     height: 164px;
     overflow: hidden;
