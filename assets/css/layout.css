@@ -173,9 +173,15 @@ background: #e9e5e5;
     width: 100%;
 
     overflow: hidden;
-    padding-bottom: 120px;
+    padding-bottom: 24px;
 
     border-top:2px solid #fff;
+}
+.medinsurance-section
+{
+  border-top:8px solid #231e65;
+  padding-top: 120px;
+
 }
 
 .retirement-section
@@ -1087,7 +1093,7 @@ flex-wrap: nowrap;
   {
     /* background-color: #1f42a5; */
 
-    width: 75%;
+    width: 100%;
     padding:24px 24px;
 
   }
@@ -1263,10 +1269,14 @@ flex-wrap: nowrap;
     padding:24px 24px;
 
   }
+  .other-services-card .other-services-content
+  {
+    width: 100%;
+  }
   .other-services-card  .other-services-image-wrap
   {
 
-     width: 96%;
+     width: 100%;
   }
 
 
