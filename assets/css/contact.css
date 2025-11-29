@@ -1,5 +1,11 @@
 
-iframe
+
+.map-iframe-wrapper iframe
+{
+    width:100%;
+    height: 480px;
+}
+.contact-page-form-information iframe
 {
 
     width: 640px;
@@ -31,14 +37,27 @@ iframe
 .contact-page-contact-information .info-heading
 {
 
-    font-family: 'Anek Tamil Condensed';
-    font-style: normal;
+   
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
     white-space: normal;
     color: #191682;
   
+
+}
+
+.contact-page-contact-information .contact-information-row
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:24px;
+}
+
+.contact-page-contact-information .contact-information-column
+{
+    width:46%;
 
 }
 
@@ -89,14 +108,29 @@ iframe
 
   
 }
+.contact-page-contact-information .info-card-list-row .list-text-2
+{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    white-space: normal;
+
+    max-width: 240px;
+
+  
+}
+
+.contact-page-contact-information .address-line
+{
+    padding-left: 48px;
+}
 
 
 
 
 .contact-page-form-information .info-heading
 {
-    font-family: 'Anek Tamil Condensed';
-    font-style: normal;
+   
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
@@ -108,6 +142,8 @@ iframe
 
 }
 
+
+
 .iframe-container-form
 {
     margin-top: 48px;
@@ -115,6 +151,11 @@ iframe
 
 @media (max-width:720px)  { 
 
+    .contact-page-contact-information .contact-information-column
+{
+    width:100%;
+
+}
 
     .contact-page-contact-information .info-card
 
@@ -129,7 +170,7 @@ iframe
     
     }
 
-    iframe
+  .contact-page-form-information  iframe
 {
 
     width: 360px;

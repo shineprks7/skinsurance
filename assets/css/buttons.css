@@ -72,6 +72,27 @@
 
     gap: 12px;
 }
+.careerbox-cta-button
+{
+    overflow: hidden;
+    border-radius: 12px;
+
+   
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    white-space: nowrap;
+    color: #1a1227;
+
+    display: flex;
+    align-items: center;
+    padding:8px 12px;
+
+    gap: 12px;
+}
 
 .final-cta-button
 

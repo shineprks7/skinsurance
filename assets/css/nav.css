@@ -122,8 +122,16 @@
 
     
 }
+@media (max-width:1260px)  { 
+  .site-logo-icon img
+  {
+   height: 48px;
+   width: auto;
+  }
 
-    @media (max-width: 860px) {
+}
+
+    @media (max-width: 1080px) {
 
       .site-logo-icon img
 {
