@@ -1,7 +1,7 @@
 
 .career-listing-box
 {
-    box-shadow: 0px -8px 0 0 blue;
+    box-shadow: 0px -8px 0 0 #1F42A5;
 
     min-height: 320px;
     padding: 24px;
@@ -30,7 +30,7 @@
 }
 .career-prime-box
 {
-    background-color: #836AE7;
+    background-color: #1F42A5;
     width: 100%;
     min-height: 320px;
     height: auto;
