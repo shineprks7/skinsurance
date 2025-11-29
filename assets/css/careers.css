@@ -129,9 +129,8 @@ iframe
     padding: 24px;
 
     overflow: hidden;
-    background: #ded3d3;
-    margin-left: 8px;
-    margin-top: 48px;
+    margin-left: 0px;
+    margin-top: 24px;
 
 }
 
@@ -161,8 +160,8 @@ iframe
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 20px;
     white-space: normal;
 
     max-width: 240px;
@@ -199,13 +198,12 @@ iframe
     .career-page-career-information .info-card
 
     {
-        width: 320px;
-        padding: 24px;
+        width: 276px;
+        padding: 8px;
     
         overflow: hidden;
         background: #ded3d3;
-        margin-left: 8px;
-        margin-top: 48px;
+       
     
     }
 
