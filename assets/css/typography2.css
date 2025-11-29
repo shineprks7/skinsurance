@@ -76,7 +76,7 @@ font-variation-settings:"wdth" 70;
 .hero-sub-title .hero-text-part
 {
   display: inline-block;
-  height: 28px;
+  height: 40px;
   overflow: hidden;
 }
 
@@ -107,13 +107,27 @@ font-variation-settings:"wdth" 70;
 {
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 25px;
+  font-size: 24px;
+  line-height: 28px;
   white-space: normal;
   /* color: #fdefef; */
 
 }
 
+.heading-2
+
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px !important;
+    line-height: 48px !important;
+    white-space: normal;
+    /* color: #f6f5f5; */
+    font-family: 'Anek Tamil Condensed';
+
+    font-family: "Anek Tamil", sans-serif;
+  font-variation-settings:"wdth" 70;
+}
 
 .heading-3
 
@@ -124,6 +138,21 @@ font-variation-settings:"wdth" 70;
     line-height: 36px !important;
     white-space: normal;
     /* color: #f6f5f5; */
+    font-family: 'Anek Tamil Condensed';
+
+    font-family: "Anek Tamil", sans-serif;
+  font-variation-settings:"wdth" 70;
+}
+
+.heading-4
+
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    white-space: normal;
+    /* color: #f9f4f4; */
     font-family: 'Anek Tamil Condensed';
 
     font-family: "Anek Tamil", sans-serif;
@@ -376,7 +405,7 @@ margin-top: 0px;
     width: 360px;
 
     letter-spacing: 1.2;
-    line-height: 2em;
+    line-height: 1.5em;
 }
 
 @media screen and (min-height:500px)  { 
