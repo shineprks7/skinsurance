@@ -335,13 +335,20 @@ background: #e9e5e5;
     align-items: center;
     flex-wrap: wrap;
 
-    padding:12px 8px;
+    padding:8px 24px;
 
     margin-top: 8px;
 
-    gap:24px;
+    gap:8px;
     background-color: #1F42A5;
 
+}
+
+.profile-badge-spacer
+{
+  background-color: #6466da;
+  height: 24px;
+  width:1px;
 }
 
 
