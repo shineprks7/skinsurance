@@ -44,6 +44,17 @@ font-variation-settings:"wdth" 70;
     color: #191682;
 
 }
+.site-logo-text:hover
+{
+      color: #191682;
+ text-decoration: none;
+}
+.site-logo-text:visited
+{
+      color: #191682;
+ text-decoration: none;
+}
+
 
 
 .hero-title

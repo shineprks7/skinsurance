@@ -83,8 +83,8 @@ background: #e9e5e5;
     background: #fff;
     position: absolute;
 
-    padding-left: 8.33%;
-    padding-right: 8.33%;
+    padding-left: 24px;
+    padding-right: 24px;
     box-sizing: border-box;
     display:flex;
     align-items: center;
